@@ -1,5 +1,5 @@
 /* General container styles */
-.container {
+.navbar-container {
     max-width: 100%; /* Limit the width of the container */
     margin: 0 auto; /* Center align the container */    
     background-color: #fff; /* Background color of the navbar */

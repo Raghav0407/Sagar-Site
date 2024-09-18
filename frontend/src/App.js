@@ -1,14 +1,27 @@
 import './App.css';
-import Home from './Components/CarouselHome';
-import OurPortfolio from './Components/OurPortfolio';
-import Testimonials from './Components/Testimonials';
-import About from './Components/About';
-import Services from './Components/Services';
-import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
+import NavBar from './Components/NavBar';
+import AboutUs from './Pages/AboutUs';
+import ContactUsPage from './Pages/ContactUsPage';
+import Home from './Pages/Home';
+import PortfolioPage from './Pages/PortfolioPage';
+import ServicesPage from './Pages/ServicesPage';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 function App() {
   return (
-    <div>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/aboutus' element={<AboutUs />}/>
+        <Route path='/portfolio' element={<PortfolioPage />}/>
+        <Route path='/services' element={<ServicesPage />}/>
+        <Route path='/enquiry' element={<ServicesPage />}/>
+        <Route path='/contactus' element={<ContactUsPage />}/>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

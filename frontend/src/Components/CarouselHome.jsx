@@ -5,7 +5,7 @@ import logo from '../Assets/sagar-slide.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/CarouselHome.css';
 
-const Home = () => {
+const CarouselHome = () => {
   return (
     <div>
       <Carousel data-bs-theme="dark">
@@ -32,4 +32,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default CarouselHome
