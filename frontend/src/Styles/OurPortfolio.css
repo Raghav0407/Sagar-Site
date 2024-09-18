@@ -1,0 +1,20 @@
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    border:1px solid grey;
+    margin-top: 20px;
+    height: 50vh;
+    
+}
+.portfolio-header{
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.portfolio-carousel{
+    margin-top: 30px;
+    
+}

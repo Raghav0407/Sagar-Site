@@ -1,0 +1,29 @@
+.testi-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.testi-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    height: 30vh;
+}
+.data1,.data2,.data3,.data4{
+display: flex;
+flex-direction: column;
+line-height: normal;
+align-items: center;
+}
+.datanum{
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+}
+.datatext{
+    font-size: 20px;
+
+}

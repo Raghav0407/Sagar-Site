@@ -1,0 +1,13 @@
+.logo_animation,.logo_animation1,.logo_animation2{
+    animation-name: logoanimation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes logoanimation {
+    0%   {margin-bottom: 30px;}
+  25%  {margin-bottom: 50px;}
+  50%  {margin-bottom: 70px;}
+  100% {margin-bottom: 90px;}
+}
