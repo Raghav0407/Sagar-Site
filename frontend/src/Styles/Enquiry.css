@@ -1,0 +1,75 @@
+
+
+.Enquiry-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enquiry {
+font-size: 36px;
+position: relative;
+display: inline-block;
+margin: 1rem;
+}
+
+.enquiry {
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+}
+    
+.enquiry::after {
+content: '';
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: -10px; 
+width: 80px; 
+height: 4px; 
+background-color: red; 
+} 
+
+.enquiry-contain
+{
+    width: 80%;
+}
+
+.enquiry-span {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px; /* Adjust padding if needed */
+    margin-bottom: 1rem;
+  }
+
+.enquiry-span::before,
+.enquiry-span::after {
+content: '';
+position: absolute;
+bottom: 0;
+height: 2px; /* Border thickness */
+}
+
+.enquiry-span::before {
+left: 0;
+width: 20%; /* Red color width */
+background: red;
+}
+
+.enquiry-span::after {
+left: 20%; /* Start position for black color */
+width: 80%; /* Black color width */
+background: black;
+}
+
+.span-right {
+    padding-left: 0;
+    color: red;
+}
+
+.enquiry-bottom {
+    display: flex;
+    
+}

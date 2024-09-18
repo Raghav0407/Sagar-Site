@@ -1,0 +1,54 @@
+{
+    "portfolio" : [
+        {
+            "name" : "REAL ESTATE",
+            "images" : [
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/1.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/2.jpg"
+                },
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/11.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/12.jpg"
+                },
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/13.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/14.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "RESTORATION",
+            "images" : [
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/5.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/6.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "HIGH QUALITY",
+            "images" : [
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/7.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/8.jpg"
+                },
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/4.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/3.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "MODEL",
+            "images" : [
+                {
+                    "before" : "https://sagarphotoretouching.com/images/portfolio/9.jpg",
+                    "after" : "https://sagarphotoretouching.com/images/portfolio/10.jpg"
+                }
+            ]
+        }
+
+    ]
+}
+    
