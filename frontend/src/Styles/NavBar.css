@@ -1,0 +1,93 @@
+/* General container styles */
+.container {
+    max-width: 100%; /* Limit the width of the container */
+    margin: 0 auto; /* Center align the container */    
+    background-color: #fff; /* Background color of the navbar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 5px 20px; /* Reduced padding */
+    margin: 1rem;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 300px; /* Reduced logo size */
+    height: auto;
+}
+
+/* Middle navbar content */
+.navbar-mid {
+    display: flex;
+    justify-content: center; /* Align items to the center */
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Menu styles */
+.cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Reduced space between menu items */
+}
+
+.cssmenu ul li {
+    display: inline-block;
+}
+
+.cssmenu ul li span {
+    font-size: 14px; /* Smaller font size */
+    color: #333; /* Text color */
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 5px 10px; /* Reduced padding for smaller menu items */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.cssmenu ul li span:hover {
+    color: #d32f2f; /* Hover color for menu items */
+}
+
+.cssmenu ul li img {
+    width: 18px; /* Smaller icons */
+    height: 18px;
+    margin-right: 5px; /* Reduced spacing between icon and text */
+}
+
+/* Last item */
+.cssmenu ul li.last span {
+    padding-right: 0;
+}
+
+/* Header button styles */
+.header_btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 8px 16px; /* Slightly smaller padding */
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+    font-size: 14px; /* Slightly smaller text */
+}
+
+/* Hover effect: floating and shadow */
+.header_btn:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+    transform: translateY(-5px); /* Move the button up slightly */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Larger shadow */
+    cursor: pointer;
+}

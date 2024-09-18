@@ -1,0 +1,97 @@
+.container
+{
+    width: 100%;
+}
+
+.heading{
+    padding: 1rem;
+}
+
+.portfolio {
+font-size: 36px;
+position: relative;
+display: inline-block;
+margin: 1rem;
+}
+  
+.portfolio::after {
+content: '';
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: -10px; /* Adjust based on desired distance from text */
+width: 80px; /* Fixed length of the border */
+height: 4px; /* Border thickness */
+background-color: red; /* Border color */
+}
+
+.bottom-sec{
+    width: 65%;
+}
+
+.intro{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+.portfolio-span {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px; /* Adjust padding if needed */
+    margin-bottom: 1rem;
+  }
+  
+.portfolio-span::before,
+.portfolio-span::after {
+content: '';
+position: absolute;
+bottom: 0;
+height: 2px; /* Border thickness */
+}
+
+.portfolio-span::before {
+left: 0;
+width: 20%; /* Red color width */
+background: red;
+}
+
+.portfolio-span::after {
+left: 20%; /* Start position for black color */
+width: 80%; /* Black color width */
+background: black;
+}
+
+span{
+    padding: 1rem 0.5rem;
+}
+
+.span-red{
+    color: red;
+}
+  
+
+.after-before{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.before{
+    background-color: rgb(239, 239, 239);
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.after{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+

@@ -1,4 +1,3 @@
-
 import './App.css';
 import Home from './Components/CarouselHome';
 import OurPortfolio from './Components/OurPortfolio';
@@ -9,7 +8,6 @@ import ContactUs from './Components/ContactUs';
 function App() {
   return (
     <div>
-     <></>
     </div>
   );
 }
