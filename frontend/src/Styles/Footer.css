@@ -1,9 +1,9 @@
-.container{
+.footer-container{
   display: flex;
   flex-direction: column;
 }
 
-.contact-container {
+.footer-contact-container {
   background-color: red;
   width: 100%;
   text-align: center;

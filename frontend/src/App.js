@@ -6,6 +6,7 @@ import ContactUsPage from './Pages/ContactUsPage';
 import Home from './Pages/Home';
 import PortfolioPage from './Pages/PortfolioPage';
 import ServicesPage from './Pages/ServicesPage';
+import Enquiry from "./Components/Enquiry"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Route path='/aboutus' element={<AboutUs />}/>
         <Route path='/portfolio' element={<PortfolioPage />}/>
         <Route path='/services' element={<ServicesPage />}/>
-        <Route path='/enquiry' element={<ServicesPage />}/>
+        <Route path='/enquiry' element={<Enquiry />}/>
         <Route path='/contactus' element={<ContactUsPage />}/>
       </Routes>
       <Footer />

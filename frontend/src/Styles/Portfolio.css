@@ -1,20 +1,24 @@
-.container
+.potfolio1-container
 {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.heading{
+.potfolio1-heading{
     padding: 1rem;
 }
 
-.portfolio {
+.potfolio1 {
 font-size: 36px;
 position: relative;
 display: inline-block;
 margin: 1rem;
 }
   
-.portfolio::after {
+.potfolio1::after {
 content: '';
 position: absolute;
 left: 50%;
@@ -35,7 +39,7 @@ background-color: red; /* Border color */
     font-size: 15px;
 }
 
-.portfolio-span {
+.potfolio-span {
     width: 100%;
     position: relative;
     display: inline-block;
@@ -43,21 +47,21 @@ background-color: red; /* Border color */
     margin-bottom: 1rem;
   }
   
-.portfolio-span::before,
-.portfolio-span::after {
+.potfolio-span::before,
+.potfolio-span::after {
 content: '';
 position: absolute;
 bottom: 0;
 height: 2px; /* Border thickness */
 }
 
-.portfolio-span::before {
+.potfolio-span::before {
 left: 0;
 width: 20%; /* Red color width */
 background: red;
 }
 
-.portfolio-span::after {
+.potfolio-span::after {
 left: 20%; /* Start position for black color */
 width: 80%; /* Black color width */
 background: black;

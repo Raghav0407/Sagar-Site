@@ -1,6 +1,6 @@
 /* General container styles */
 .navbar-container {
-    max-width: 100%; /* Limit the width of the container */
+    width: 100%; /* Limit the width of the container */
     margin: 0 auto; /* Center align the container */    
     background-color: #fff; /* Background color of the navbar */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.row {
+.navbar-row {
     display: flex;
     justify-content: space-between;
     align-items: center;

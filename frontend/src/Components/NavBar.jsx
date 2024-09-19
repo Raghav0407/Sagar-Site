@@ -7,7 +7,7 @@ import {Link} from "react-router-dom"
 function NavBar() {
     return (
         <div className="navbar-container">
-            <div className="row">
+            <div className="navbar-row">
                 <div className="logo">
                     <img alt="Company Logo" src={logo} />
                 </div>

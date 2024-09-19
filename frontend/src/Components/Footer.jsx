@@ -4,8 +4,8 @@ import mail_image from "../Images/mail_image.webp"
 
 const Footer = () => {
     return (
-        <div className="container">
-            <div className="contact-container">
+        <div className="footer-container">
+            <div className="footer-contact-container">
                 <h2 className="contact-heading">CONTACT US</h2>
                 <p className="sub-heading">is Time to Do it</p>
                 <p className="description">
