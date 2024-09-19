@@ -5,9 +5,11 @@ import Testimonials from './Components/Testimonials';
 import About from './Components/About';
 import Services from './Components/Services';
 import ContactUs from './Components/ContactUs';
+import NavBar from './Components/NavBar';
 function App() {
   return (
     <div>
+      <NavBar/>
     </div>
   );
 }
